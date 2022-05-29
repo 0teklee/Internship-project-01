@@ -1,0 +1,19 @@
+[
+  { "id": 1, "country": "가나", "codeNum": 233, "countryCode": "GH" },
+  {
+    "id": 2,
+    "country": "남아프리카 공화국",
+    "codeNum": 27,
+    "countryCode": "ZA"
+  },
+  { "id": 3, "country": "네덜란드", "codeNum": 31, "countryCode": "NL" },
+  { "id": 4, "country": "대한민국", "codeNum": 82, "countryCode": "KR" },
+  { "id": 5, "country": "덴마크", "codeNum": 45, "countryCode": "DK" },
+  { "id": 6, "country": "독일", "codeNum": 49, "countryCode": "E" },
+  { "id": 7, "country": "러시아", "codeNum": 7, "countryCode": "RU" },
+  { "id": 8, "country": "멕시코", "codeNum": 52, "countryCode": "MX" },
+  { "id": 9, "country": "미국", "codeNum": 1, "countryCode": "US" },
+  { "id": 10, "country": "스위스", "codeNum": 41, "countryCode": "CH" },
+  { "id": 11, "country": "일본", "codeNum": 81, "countryCode": "JP" },
+  { "id": 12, "country": "중화인민공화국", "codeNum": 86, "countryCode": "CN" }
+]

@@ -20,11 +20,7 @@
 
 ### 기술 스택
 
-#### <img src="https://img.shields.io/badge/React-61dafb?style=flatsquare&logo=React&logoColor=white">
-
-#### <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flatsquare&logo=TypeScript&logoColor=white">
-
-#### <img src="https://img.shields.io/badge/Next.js-000000?style=flatsquare&logo=Next.js&logoColor=white">
+### <img src="https://img.shields.io/badge/React-61dafb?style=flatsquare&logo=React&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flatsquare&logo=TypeScript&logoColor=white"> <img src="https://img.shields.io/badge/Next.js-000000?style=flatsquare&logo=Next.js&logoColor=white">
 
 ### 기능 상세
 

@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 코인고스트 1차 기업 과제
 
-## Getting Started
+## 회원가입, 리스트, 디테일 페이지 제작
 
-First, run the development server:
+### 데모 영상
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**회원가입 페이지 구현**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### <img src="public/intership_01_register_1.gif">
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### <img src="public/intership_01_register_2.gif">
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**리스트 페이지 구현**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### <img src="public/intership_01_list.gif">
 
-## Learn More
+**디테일 페이지 구현**
 
-To learn more about Next.js, take a look at the following resources:
+### <img src="public/intership_01_detail.gif">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 기술 스택
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### <img src="https://img.shields.io/badge/React-61dafb?style=flatsquare&logo=React&logoColor=white">
 
-## Deploy on Vercel
+#### <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flatsquare&logo=TypeScript&logoColor=white">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### <img src="https://img.shields.io/badge/Next.js-000000?style=flatsquare&logo=Next.js&logoColor=white">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 기능 상세
+
+#### 회원가입
+
+- 가입하기 클릭 시 input tag 에 빈값이나 알맞지 않는 형식일 경우 에러 문구 띄어주는 기능 구현
+- 인증번호 받기 API 이용해서 인증번호 받아서 인증번호 인증까지 기능 구현
+- 에러 핸들링, 예외처리
+- 인증완료시 휴대폰 인증하기 버튼 disabled 처리
+
+#### 리스트
+
+- useSWRInfinite룰 사용하여 데이터 요청을 구현
+- intersection-observer를 사용하여 무한 스크롤 구현
+- 좋아요 필터링 기능 구현
+
+#### 디테일
+
+- getStaticProps로 정적 페이지를 pre-rendering 구현
+- getStaticPaths로 게시글 id를 동적으로 URL 주소 생성
